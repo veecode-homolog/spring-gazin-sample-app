@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: spring-gazin-sample-app-location
+  description: Location to import all spring-gazin-sample-app catalog components
+spec:
+  targets:
+    - ./platform/*.yaml
