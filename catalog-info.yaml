@@ -5,4 +5,4 @@ metadata:
   description: Location to import all spring-gazin-sample-app catalog components
 spec:
   targets:
-    - ./platform/*.yaml
+    - ./.platform/*.yaml
