@@ -186,7 +186,7 @@ jobs:
       - name: Publish spec
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          repository: ".platform/spec-api.yaml"
+          repository: ".platform/"
           commit_user_name: veecode-bot
           commit_user_email: veecode-bot@vee.codes
           commit_author: Veecode Bot <veecode-bot@vee.codes>
